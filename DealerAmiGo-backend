@@ -1,0 +1,9 @@
+dealeramigo-backend/
+│
+├── server.js                ← archivo principal del servidor
+├── package.json             ← dice cómo correr el servidor
+├── .env.example             ← archivo de variables (tú lo configuras)
+├── functions/
+│   └── processLeads.js      ← lógica para leer Google Sheet y guardar
+└── utils/
+    └── googleAuth.js        ← conecta con la API de Google
